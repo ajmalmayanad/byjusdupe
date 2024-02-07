@@ -1,0 +1,619 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+#primary-nav{
+    background-color: #813588;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+#main-logo{
+    height: 50px;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 90px;
+    float: left;
+}
+
+#SM{
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: #ffc846;
+    display: flex;
+    align-items: center;
+}
+#BA{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 38px;
+    color: #ffc846;
+    
+}
+#S{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #ffc846;
+    display: flex;
+    align-items: center;
+}
+#btc{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #ffc846;
+    display: flex;
+    align-items: center;
+}
+#BAC{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 38px;
+    color: #ffc846;
+}
+#SS{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 38px;
+    color: #ffc846;
+}
+.transform{
+    transform: rotate(90deg);
+}
+#login{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 28px;
+    color: #ffc846;
+    border-color: #ffc846;
+    background-color: #813588;
+    border-radius: 7px;
+    border-width: 2px;
+    height: 34px;
+    width: 70px;
+}
+#call{
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    color: #813588;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.call-icon{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 27px;
+    width: 27px;
+    border-radius: 30px;
+    background-color:#ffc846;
+    float: left;
+}
+#search{
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    color: #813588;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.search-icon{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 27px;
+    width: 27px;
+    border-radius: 30px;
+    background-color:#ffc846;
+    float: left;
+}
+.banner{
+    background-image: url(Images/homebannerbg.svg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+.left1{
+    width: 55%;
+    background-position: left;
+    background-size: contain;
+    height: 600px;
+    z-index: 1;
+    float: left;
+}
+.right1{
+    width: 33%;
+    background-position: right;
+    background-color: white;
+    background-size: contain;
+    margin-right: 80px;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 500px;
+    z-index: 3;
+    float: right;
+}
+.secssion{
+    text-align: center;
+}
+.class4-10{
+    width: 85%;
+height: 300px;
+border-radius: 20px;
+margin-left: 7.5%;
+background-color: #f2f2f2;
+box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+display: flex;
+flex-direction: column;
+
+}
+.class-4-10-button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    float: left;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    padding-top: 10px;
+ }
+
+#study4-10{
+float: left;
+max-width: 220px;
+margin-left: 40px;
+}
+.card1{
+float: left;
+margin-left: 15px;
+margin-top: -30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card1-img{
+width: 140px;
+margin-top: 50px;
+}
+.card2{
+float: left;
+margin-left: 15px;
+margin-top: -30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card2-img{
+width: 140px;
+margin-top: 50px;
+}
+#line{
+height: 125px;
+width: .1px;
+background-color: black;
+float:left;
+margin-top: 60px;
+margin-left: 30px;
+}
+#Booking{
+background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+height: 50px;
+width: 175px;
+bottom: 20px;
+border-color: white;
+border-radius: 15px;
+color: white;
+margin-top: 8px;
+font-weight: 500;
+font-size: medium;
+
+}
+.class-JEE-NEET{
+    margin-top: 60px;
+width: 85%;
+height: 320px;
+border-radius: 20px;
+margin-left: 7.5%;
+background-color: #f2f2f2;
+box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+margin-bottom: 10px;
+}
+.jee-colum1{
+width: 36%;
+height: 280px;
+float: left;
+display: flex;
+margin-top: 40px;
+flex-direction: column;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jee-colum2{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 28%;
+height: 280px;
+margin-top: 40px;
+float: left;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jee-colum3{
+width: 36%;
+height: 280px;
+margin-top: 40px;
+float: left;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#Booking2{
+background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+height: 50px;
+width: 175px;
+bottom: 20px;
+border-color: white;
+border-radius: 15px;
+color: white;
+margin-top: 8px;
+margin-left: 90px;
+font-weight: 500;
+font-size: medium;
+}
+#Booking3{
+background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+height: 50px;
+width: 175px;
+bottom: 20px;
+border-color: white;
+border-radius: 15px;
+color: white;
+margin-top: 8px;
+margin-left: 90px;
+font-weight: 500;
+font-size: medium;
+}
+.button-jee-neet{
+width: 150px;
+height: 30px;
+color: white;
+background-color: blue;
+float: left;
+
+border-bottom-left-radius: 15px ;
+border-bottom-right-radius: 15px;
+padding-top: 10px;
+}
+#line2{
+height: 85px;
+width: .1px;
+background-color: black;
+margin-top: 20px;
+}
+
+.lkg-ias{
+    height: 320px; 
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 65px;
+ }
+ .lkg{
+     width: 48.5%;
+     height: 320px;
+     border-radius: 20px;
+     background-color: #f2f2f2;
+     box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     float: left;
+ }
+ .ias{  
+     width: 48.5%;
+     height: 320px;
+     border-radius: 20px;
+     background-color: #f2f2f2;
+     box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     float: left;
+     margin-left: 3%;
+ }
+ .lkg-top{
+ width: 100%;
+ height: 20%;
+ display: flex;
+ justify-content: center;
+ }
+ .ias-top{
+ width: 100%;
+ height: 20%;
+ display: flex;
+ justify-content: center;
+ }
+ .button-lkg{
+     width: 150px;
+     height: 30px;
+     color: white;
+     background-color: blue;
+     float: left;
+     border-bottom-left-radius: 15px ;
+     border-bottom-right-radius: 15px;
+     padding-top: 10px;
+     text-align: center;
+ }
+ .button-ias{
+     width: 150px;
+     height: 30px;
+     color: white;
+     background-color: blue;
+     float: left;
+     border-bottom-left-radius: 15px ;
+     border-bottom-right-radius: 15px;
+     padding-top: 10px;
+     text-align: center;
+ }
+ .lkg-bottom{
+ width: 100%;
+ height: 78%;
+ display: flex;
+ justify-content: center;
+ }
+ #Booking4{
+     background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+ height: 50px;
+ width: 175px;
+ bottom: 20px;
+ border-color: white;
+ border-radius: 15px;
+ color: white;
+ font-weight: 500;
+ font-size: medium;
+ }
+ .card5{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+ .card6{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+ .lkg-bottom{
+ width: 100%;
+ height: 78%;
+ display: flex;
+ justify-content: center;
+ }
+ .ias-bottom{
+ width: 100%;
+ height: 78%;
+ display: flex;
+ justify-content: center;
+ }
+ #Booking5{
+     background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+ height: 50px;
+ width: 175px;
+ bottom: 20px;
+ border-color: white;
+ border-radius: 15px;
+ color: white;
+ font-weight: 500;
+ font-size: medium;
+ margin-top: 45px;
+ }
+
+.adventage{
+    text-align: center;
+    height: 600px;
+    width: 75%;
+    margin-left: 170px;
+    margin-top: 90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.adventage1{
+width: 33%;
+height: 600px;
+float: left;
+}
+.adventage2{
+width: 33%;
+height: 600px;
+float: left;
+}
+.adventage3{
+width: 33%;
+height: 600px;
+float: left;
+}
+.testimonials{
+    text-align: center;
+    height: 300px;
+    width: 75%;
+    margin-left: 170px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.testimonials1 {
+    width: 24%;
+    height: 200px;
+    float: left;
+}
+.testimonials2 {
+    width: 24%;
+    height: 200px;
+    float: left;
+}
+.testimonials3 {
+    width: 24%;
+    height: 200px;
+    float: left;
+}
+.testimonials4 {
+    width: 24%;
+    height: 200px;
+    float: left;
+}
+.videofb{
+    width: 90%;
+    height: 200px;
+    top: 50px;
+    margin-left: 100px;
+}
+.carousel1{
+    text-align: center;
+    width: 28%;
+    height: 200px;
+    float: left;
+}
+.carousel2{
+text-align: center;
+width: 28%;
+height: 200px;
+float: left;   
+}
+.carousel3{
+text-align: center;
+width: 28%;
+height: 200px;
+float: left;
+}
+.happy{
+    background-image: linear-gradient(to right,#5c72ff,#8c3fff);
+    width: 300px;
+    height: 45px;
+    margin-top: 150px;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    white-space: nowrap;
+}
+.explore{
+    margin-left: -60px;
+    margin-right: 50px;
+}
+#Booking2{
+    background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+    height: 60px;
+    width: 175px;
+    border-color: white;
+    border-radius: 15px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: -200px;
+}
+.footer{
+    height: auto;
+    display: flex;
+    width: 103.7%;
+    background-color: #813588;
+}
+
+.footer1 li{
+    list-style-type: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer h5{
+    color: #ffc846;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer1{
+    margin-top: 25px;
+}
+.f-title{
+    color: #ffc846;
+    font-size: 14px;
+    font-weight: 400;
+}
+.f-ex{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secssion{
+    background-image: url(Images/homebannerbg.svg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left{
+    width: 55%;
+    height: 600px;
+    float: left;
+    margin-top: 55px;
+}
+.right{
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+.form{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+#Book{
+    background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+    height: 60px;
+    width: 300px;
+    bottom: 20px;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    font-size: x-large;
+}
+.wave{
+    position: relative;
+    transform: scaleY(.5);
+    margin-top: -200px;
+}
+.wave2{
+    position: relative;
+    transform: scaleY(.5);
+    margin-bottom: -120px;
+}
+
+
